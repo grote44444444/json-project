@@ -1,11 +1,14 @@
 package com.nhao.springboot.jsonpojo;
 
+import java.util.List;
+
 public class Employee {
     private Long id;
     private String name;
     private Integer salary;
     private String[] skills;
     private Address address;
+    private List<Interest> interests;
 
 
     public Long getId() {
@@ -46,5 +49,13 @@ public class Employee {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public List<Interest> getInterests() {
+        return interests;
+    }
+
+    public void setInterests(List<Interest> interests) {
+        this.interests = interests;
     }
 }

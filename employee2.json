@@ -1,37 +1,28 @@
 {
-  "liming": [
-    {
-      "id": 2007,
-      "name": "JohnDoe",
-      "salary": 40000,
-      "skills": [
-        "Java",
-        "SQL",
-        "jQuery"
-      ],
-      "address": {
-        "id": 100,
-        "city": "Delhi",
-        "country": "India",
-        "pin": "231245"
-      }
+  "liming": {
+    "id": 2005,
+    "name": "John Doe",
+    "salary": 40000,
+    "skills": [
+      "Java",
+      "SQL",
+      "jQuery"
+    ],
+    "address": {
+      "id": 100,
+      "city": "Delhi",
+      "country": "India",
+      "pin": "231245"
     },
-    {
-      "id": 2005,
-      "name": "John Doe",
-      "salary": 40000,
-      "skills": [
-        "Java",
-        "SQL",
-        "jQuery"
-      ],
-      "address": {
-        "id": 100,
-        "city": "Delhi",
-        "country": "India",
-        "pin": "231245"
+    "interests": [
+      {
+        "id": "cook",
+        "description": "cooking"
+      },
+      {
+        "id": "drive",
+        "description": "driving"
       }
-    }
-
-  ]
+    ]
+  }
 }

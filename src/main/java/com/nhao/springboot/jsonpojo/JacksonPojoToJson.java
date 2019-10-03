@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JacksonPojoToJson {
     public static void main(String[] args) throws Exception {
@@ -17,6 +19,11 @@ public class JacksonPojoToJson {
         employee.setName("John Doe");
         employee.setSalary(40000);
         employee.setSkills(new String[] { "Java", "SQL", "jQuery" });
+
+        List<Interest> interests = new ArrayList<>();
+        interests.add(new Interest("cook", "cooking"));
+        interests.add(new Interest("drive", "driving"));
+        employee.setInterests(interests);
 
         Address address = new Address();
         address.setId(100L);

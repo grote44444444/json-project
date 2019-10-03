@@ -59,7 +59,7 @@ public class JsonUnmarshallingDiff {
 //        JSONParser parser = new JSONParser();
 //        try {
 //            Object obj = parser.parse(new FileReader("employee.json"));
-//            Object obj1 = parser.parse(new FileReader("employee2.json"));
+//            Object obj1 = parser.parse(new FileReader("employee3.json"));
 //            JSONObject jsonObject = (JSONObject) obj;
 //            JSONObject jsonObject1 = (JSONObject) obj1;
 //            Set<String> s = jsonObject.keySet();
