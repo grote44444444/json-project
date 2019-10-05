@@ -52,6 +52,7 @@ public class JsonUnmarshallingDiff {
 
         JsonPatch diff = Json.createDiff(jsonStructure, jsonStructure2);
         System.out.print(diff.toString());
+        
 //        Employee employee = new Gson().fromJson(treeNode.toString(), Employee.class);
 //        Employee employee2 = new Gson().fromJson(treeNode2.toString(), Employee.class);
 
